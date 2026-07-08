@@ -1,0 +1,38 @@
+{
+  "n_rows": 2000,
+  "n_features": 21,
+  "linear_regression": {
+    "rmse": 0.734163794889184,
+    "mae": 0.5929744940440671,
+    "r2": 0.6752675286218757
+  },
+  "gradient_boosting": {
+    "rmse": 0.6382258918682457,
+    "mae": 0.5105119223740041,
+    "r2": 0.7545920495553485
+  },
+  "random_forest": {
+    "rmse": 0.6989087055630546,
+    "mae": 0.5691665697425474,
+    "r2": 0.70570648598538,
+    "best_params": {
+      "max_depth": 10,
+      "n_estimators": 100
+    },
+    "cv_r2_mean": 0.6696669336569315,
+    "cv_r2_std": 0.03260167642006489
+  },
+  "winner": "gradient_boosting",
+  "top_features": {
+    "caption_length": 0.19637760306361313,
+    "hour_of_day": 0.15593378122299673,
+    "hashtag_count": 0.13988797672620296,
+    "post_type_text": 0.13225322996849861,
+    "post_type_video": 0.13005732291971422,
+    "hour_bucket_evening": 0.07348106928491259,
+    "post_type_image": 0.046726009881232836,
+    "platform_instagram": 0.031796165835328204,
+    "hour_bucket_early_morning": 0.03156378609320175,
+    "is_weekend": 0.024095644311871778
+  }
+}
